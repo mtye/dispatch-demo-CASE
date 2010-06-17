@@ -11,5 +11,13 @@
 	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/dispatch-futures_2.7.7-0.7.4.jar"/>
 	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/dispatch-http_2.7.7-0.7.4.jar"/>
 	<classpathentry kind="lib" path="project/boot/scala-2.7.7/org.scala-tools.sbt/sbt/0.7.3/sbt_2.7.7-0.7.3.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/dispatch-meetup_2.7.7-0.7.4.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/dispatch-lift-json_2.7.7-0.7.4.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/dispatch-mime_2.7.7-0.7.4.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/dispatch-oauth_2.7.7-0.7.4.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/httpmime-4.0.1.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/lift-json-2.0-M5.jar"/>
+	<classpathentry kind="lib" path="lib_managed/scala_2.7.7/compile/paranamer-2.0.jar"/>
 	<classpathentry kind="output" path="target/scala_2.7.7/classes"/>
 </classpath>
