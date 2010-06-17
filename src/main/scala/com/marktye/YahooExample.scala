@@ -40,14 +40,14 @@ object YahooExample {
     (new Http)(streamHandler)
   }
   
-  def lower {
-    val stringHandler: Handler[String] = dispatchQuery >- {_.toLowerCase}
-    val result = (new Http)(stringHandler)
-    println(result)	
+  def count {
+    val stringCounter: Handler[Int] = dispatchQuery >- { _.size }
+    val count: Int = (new Http)(stringCounter)
+    println(count)
   }
 
   def source {
-    def printLines(s: io.Source) = s.getLines.foreach(println)
+    def printLines(s: io.Source) = s.getLines.foreach(print)
     val sourceHandler: Handler[Unit] = dispatchQuery >~ printLines
     (new Http)(sourceHandler)
   }
